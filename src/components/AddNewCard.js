@@ -39,7 +39,7 @@ function AddNewCard (props){
                 placeholder="Enter your card title"
                 onChange={handleChange}
             />
-            <button onClick={handleSubmit} disabled={!cardData.cardTitle}>+ Add</button>
+            <button onClick={handleSubmit} disabled={!cardData.cardTitle}>+ Add Card</button>
         </div>
     )
 }
