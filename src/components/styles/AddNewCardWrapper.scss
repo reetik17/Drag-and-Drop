@@ -1,0 +1,6 @@
+.addNewCardWrapper{ height: 80px; width: 100%; border: 1px dashed lightgray; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2 ease-in-out;gap: 10px;
+    .titleInput{ height: 30px; border: 1px solid lightgrey; border-radius: 8px; padding: 0px 10px; }
+    button{ height: 30px; border-radius: 8px; border: none; background-color: rgba(85,116,241,0.5); width: 90px; }
+    
+}
+.addNewCardWrapper:hover{ background-color: rgba(211, 211, 211, 0.2); transition: all 0.2s ease-in-out;}
